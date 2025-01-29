@@ -4,12 +4,12 @@ Este repositório é destinado aos meus estudos. Aqui, irei adicionar tudo o que
 
 Também estou utilizando o Codespace para desenvolver os códigos, realizar commits e fazer push das alterações. Além disso, estou utilizando diversas extensões para melhorar minha produtividade e facilitar o desenvolvimento.
 
-## Extensôes Utilizadas
+## Extensões Utilizadas
 
-**Aura Theme** Extensão que adiciona um tema escuro
-**Material Icon Theme** Extensao que personaliza os icones de Arquivos
-**GitHub Copilot** Extensão que adiciona IA do Github
-**PDF Preview** Entensão que permite visualizar PDF dentro do Codespace
+**Aura Theme** Extensão que adiciona um tema escuro  
+**Material Icon Theme** Extensao que personaliza os icones de Arquivos  
+**GitHub Copilot** Extensão que adiciona IA do Github  
+**PDF Preview** Entensão que permite visualizar PDF dentro do Codespace  
 
 ### Links das Entensões 
 
