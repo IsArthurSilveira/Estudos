@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tags de Script</title>
+    <title>Tags de Midia</title>
 </head>
 <body>
-    <h2>Elementos de Script</h2> <!-- Título -->
-    <script>
-        document.write("Hello World!"); // Escreve "Hello World!" na página
-    </script>
+    <audio src="audio.mp3" controls></audio>  <!-- Tag de audio -->
     <br> <!-- Quebra de linha -->
-    <script>
-        alert("Hello World!"); // Exibe um alerta com "Hello World!"
-    </script>
+    <video src="video.mp4" controls></video>  <!-- Tag de video -->
     <br> <!-- Quebra de linha -->
-    <script>
-        console.log("Hello World!"); // Exibe "Hello World!" no console
-    </script>
+    <audio src="audio.mp3" controls autoplay loop></audio>  <!-- Tag de audio com autoplay e loop -->
     <br> <!-- Quebra de linha -->
-    <script>
-        var x = 10; // Declara uma variável x com o valor 10
-        document.write(x); // Escreve o valor de x na página
-    </script>
+    <video src="video.mp4" controls autoplay loop muted></video>  <!-- Tag de video com autoplay, loop e muted -->
     <br> <!-- Quebra de linha -->
+    <audio src="audio.mp3" controls preload="auto"></audio>  <!-- Tag de audio com preload -->
+    <br> <!-- Quebra de linha -->
+    <video src="video.mp4" controls preload="auto"></video>  <!-- Tag de video com preload -->
+    <br> <!-- Quebra de linha -->
+    <video src="video.mp4" controls poster="poster.jpg"></video>  <!-- Tag de video com poster -->
+    <br> <!-- Quebra de linha -->
+    <video src="video.mp4" controls width="320" height="240"></video>  <!-- Tag de video com width e height -->
+    <br> <!-- Quebra de linha -->
+    <video src="video.mp4" controls autoplay loop muted width="320" height="240"></video>  <!-- Tag de video com autoplay, loop, muted, width e height -->
+    <br> <!-- Quebra de linha -->
+    <video src="video.mp4" controls autoplay loop muted width="320" height="240" style="border: 1px solid black;"></video>  <!-- Tag de video com autoplay, loop, muted, width, height e style -->
 </body>
 </html>
